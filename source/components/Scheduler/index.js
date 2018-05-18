@@ -25,7 +25,7 @@ export default class Scheduler extends Component {
             filterToDo,
         } = this.props;
 
-        const filteredToDo = toDoes.filter((toDo) => toDo.message.includes(filterToDo))
+        const filteredToDo = toDoes.filter((toDo) => toDo.message.includes(filterToDo));
 
         return (
             <section className = { Styles.scheduler }>
